@@ -1,7 +1,7 @@
-import react, {useState} from 'react';
+//import {useState} from 'react';
 
 const PokemonList = props => {
-	const { listaPokemons, setListaPokemons } = props;
+	const { listaPokemons } = props;
 
 	return (
 		<ul>
